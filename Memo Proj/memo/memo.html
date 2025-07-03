@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超メモ帳</title>
+    <link rel="icon" href="very.ico">
+    <link rel="stylesheet" href="memo.css">
+</head>
+<body>
+
+    <script src="memo.js"></script>
+
+    <div class="container">
+        <div class="sideBar">
+            <img src="../home/title.png" class="memoTitle" alt="タイトルロゴ">
+            <h1>メモの数：<span id="memoCount">--</span></h1>
+            <h1>ピン留め</h1>
+            <ul id="pinnedList"></ul>
+        </div>
+<!---->
+        <div class="main">
+            <div class="inputArea">
+                <input type="text" id="memoInput" placeholder="ここにお記入ください">
+                <button id="saveButton">保存</button>
+            </div>
+            <ul id="memoList"></ul>
+        </div>
+    </div>
+</body>
+</html>
